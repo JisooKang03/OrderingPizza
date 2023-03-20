@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang = "em">
+<head>
+	<title>PizzaOrder</title>
+	<meta name="author" content="Jisoo Kang">
+	<meta name="description" content="PizzaOrder">
+	<meta charset="UTF-8">
+<style>
+body {
+	background-color: hsla(89, 43%, 51%, 0.3);
+}
+</style>
+</head>
+<body>
+	<a href="JKangAssign2.html">Home</a>
+	<a href="CreditCardJK.html">Last page</a>
+	<h2 style="text-align: center">PIZZA ORDER</h2>
+	<form name="pizzaorder" method="get" action="JKangAssign2.html">
+
+	<table align="center">
+		<tr>
+			<td valign="bottom"><img src="Images/Cheese_Pizza.jpg" width=100 height=100> </td> 
+			<td valign="bottom"><img src="Images\Pepperoni_Pizza.jpg" width=150 height=150> </td>
+			<td valign="bottom"><img src="Images\VeggieLovers.jpg" width=200 height=200> </td> 
+			<td valign="bottom"><img src="Images\Hawaiian-Pizza.jpg" width=250 height=250> </td> 
+		</tr>
+		<tr>
+			<td><h3 align="center"> Small Size</h3></td>
+			<td><h3 align="center"> Medium Size</h3></td>
+			<td><h3 align="center"> Large Size</h3></td>
+			<td><h3 align="center"> X-Large Size</h3></td>
+		</tr>
+</table>
+<fieldset>
+<legend>Customer Information</legend>
+<table>
+<tr>
+	<td>
+		<label for="fn"> First Name: </label>
+		<input type="text" id="fn" name="fn" spellcheck="true" >
+
+		<label for="lan"> Last Name:</label>
+		<input type="text" id="lan" name="lan" spellcheck="true" >
+
+		<label for="phone#"> Phone Number: </label>
+		<input type="text" id="phone#" name="phone#" placeholder="(123)-456-789" >
+
+	</td>
+</table>
+
+
+</fieldset>
+<fieldset>
+<legend>Choose Your Pizza</legend>
+<table>
+	<td>
+		<tr>
+			<label for="PB"> Pizza Base: </label>
+			<input list="pizza base" name="3" placeholder="Select Pizza Base" >
+			<datalist id="pizza base">
+				<option>Hand Tossed</option>
+				<option>Thin Crust</option>
+				<option>Regular</option>
+			</datalist>
+	</td>
+
+		
+			<label for="PT"> Pizza Type: </label>
+			<input list="pizza type" name="4" placeholder="Select Pizza Type" >
+			<datalist id="pizza type">
+				<option>Pepperoni</option>
+				<option>Cheese</option>
+				<option>Veggie Lovers</option>
+				<option>Hawaiian</option>
+			</datalist>
+
+
+			<label for="PS"> Pizza Size: </label>
+			<input list="pizza size" name="4" placeholder="Select Pizza Size" >
+			<datalist id="pizza size">
+				<option>S</option>
+				<option>M</option>
+				<option>L</option>
+				<option>XL</option>
+</table>
+</fieldset>
+
+<fieldset>
+<legend>Choose Your Drink</legend>
+<table>
+
+<tr>	
+	<td>
+		<label for="Drink"> Drink: </label>
+		<input list="drink" name="4" placeholder="Choose your drink" >
+		<datalist id="drink">
+			<option>Coke</option>
+			<option>Pepsi</option>
+			<option>Canada Dry</option>
+			<option>Ice Tea</option>
+		</datalist>
+
+		<label for="ND">Quantity: </label>
+		<input type="number" name="quantity" min="0" max="10" step="1" placeholder="1-10">
+
+		<label for="Dessert"> Dessert: </label>
+		<input list="Dessert" name="4" placeholder="Choose Your Dessert">
+		<datalist id="Dessert">
+			<option>Brownie</option>
+			<option>Ice Cream</option>
+			<option>Chocolate Chip Cookies</option>
+			<option>Cinnamon Streusel</option>
+		</datalist>
+		
+			
+		<label for="Delivery"> Deliver Option: </label>
+		<input list="Delivery" name="2" placeholder="Yes or No" >
+		<datalist id="Delivery">
+			<option>YES</option>
+			<option>NO</option>
+			
+		</datalist>
+	</table>
+</fieldset>
+
+<fieldset>
+<legend>Special Comments:</legend>
+<table>
+	<td>	
+		<tr>
+		<textarea id="comment" rows="10" cols="50">
+		</textarea>
+	</td>
+		</tr>
+</table>
+</fieldset>
+<br><br>	
+
+		
+	<input type="submit" value="Submit" name="btnSave">
+	<input type="reset" value="Reset" name="btnreset">
+
+	
+
+
+
+</form>
+</body>
+</html>

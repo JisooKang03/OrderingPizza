@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang = "em">
+	<head>
+		<title>CreditcardJK</title>
+		<meta name="author" content ="Jisoo Kang">
+		<meta name="description" content = "Order Form" 
+		 
+		<meta charset = " UTF -8">
+	</head>
+	<body>
+		<a href="JKangAssign2.html">Home</a>
+		<title>JKangAssign2</title>
+		<h2>Order Form</h2>
+		
+		<form name="orderform" method="get" action="pizzaOrder.html">
+		
+		<fieldset>
+		<legend> Member Information</legend>
+		<table>
+		<tr>
+    <td>
+      <label for="el"> Email Address: </label>
+      </td>
+      <td>
+        <input type="text" id="el" name="el">
+      </td>
+      </tr> <!--1st row ends-->
+    
+    
+      <tr><!-- 2nd row starts-->
+        <td>
+          <label for="fn"> First Name:</label>
+        </td>
+        <td>
+          <input type="text" id="fn" name="fn">
+        </td>
+        </tr><!-- 2nd row ends-->
+    
+    
+       <tr><!-- 3nd row starts-->
+        <td>
+          <label for="lan"> Last Name:</label>
+        </td>
+        <td>
+          <input type="text" id="lan" name="lan">
+        </td>
+        </tr><!-- 3nd row ends-->
+	
+		</table>
+		</fieldset>
+   
+
+	<p></p>
+		<fieldset>
+		<legend>Credit Card Information</legend>
+		Card Type  : <input list="Card Type" name="3"><br>
+		Card Number: <input type="card number" name="cardnumber" placeholder="16 digits"><br>
+		Expiration date: <input list="Months" name="12">
+						<input list="Years" name ="12">
+
+		<datalist id="Card Type">
+
+			<option>Visa</option>
+			<option>Master Card</option>
+			<option>American Express</option>
+		</datalist>
+		
+		<datalist id="Months">
+			<option>January </option>
+			<option> Febuary </option>
+			<option> March </option>	
+			<option>April </option>
+			<option> May</option>
+			<option> June </option>
+			<option>July </option>
+			<option> August  </option>
+			<option>September  </option>
+			<option>October </option>
+			<option>November </option>
+			<option> December </option>
+		</datalist>
+		
+		<datalist id="Years">
+			<option>2015 </option>
+			<option> 2016 </option>
+			<option> 2017 </option>	
+			<option> 2018</option>
+			<option>2019 </option>
+			<option> 2020 </option>
+			<option> 2021</option>
+			<option>  2022 </option>
+			<option> 2023 </option>
+			<option> 2024</option>
+			<option> 2025</option>
+			<option> 2026 </option>
+		</datalist>
+			
+		<legend>Submit Your Order</legend>
+		<input type="Submit" width="70" value="Submit" name="btnSave">
+		<input type="Reset" width="70" value="Reset" name="btnreset">
+		
+		</fieldset>
+		
+		
+		
+		</form>
+	</body>
+</html>
+		
+		
+		
+		
+		
